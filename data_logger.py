@@ -8,7 +8,8 @@ from drivers.mpu6050 import MPU6050
 # -----------------------------
 TOTAL_SAMPLES = 1000
 BASELINE_SAMPLES = 100          # keep sensor still at start
-SAMPLE_RATE = 200               # Hz; raise later if stable
+
+SAMPLE_RATE = 100
 DT = 1.0 / SAMPLE_RATE
 
 # Vibration detection tuning
